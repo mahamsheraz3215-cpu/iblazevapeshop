@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iBlaze Vape Shop - Ashton-in-Makerfield</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #2a0a1e; /* Solid spooky purple-black background */
+            color: #ffffff;
+        }
+        h1, h2, h3, h5 {
+            font-family: 'Nosifer', cursive; /* Gothic font for headings */
+            text-shadow: 0 0 10px #ff4500, 0 0 20px #ff4500; /* Glowing effect */
+        }
+        .navbar-brand {
+            font-family: 'Nosifer', cursive;
+            font-size: 2rem;
+            font-weight: bold;
+            color: #ffffff !important;
+            text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff;
+        }
+        .hero {
+            background: rgba(42, 10, 30, 0.9); /* Semi-transparent overlay on solid background */
+            padding: 100px 0;
+            text-align: center;
+            border-bottom: 2px solid #ff4500;
+        }
+        .hero h1 {
+            color: #ffffff;
+        }
+        .section {
+            padding: 50px 0;
+            background: rgba(42, 10, 30, 0.8);
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+        .map { height: 400px; width: 100%; border-radius: 10px; }
+        footer {
+            background: #000000;
+            color: #cccccc;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .timings { list-style: none; padding: 0; }
+        .timings li { margin: 5px 0; }
+        .card {
+            background: rgba(0, 0, 0, 0.9);
+            border: 1px solid #ff4500;
+            color: #ffffff;
+        }
+        .card-title {
+            font-family: 'Nosifer', cursive;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+        <div class="container">
+            <a class="navbar-brand" href="#">iBlaze</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Welcome to iBlaze Vape Shop</h1>
+            <p>Indulge in the smoky mysteries of premium vaping. Ashton-in-Makerfield's go-to spot for all things vape.</p>
+            <a href="#products" class="btn btn-outline-light">Explore Products</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About iBlaze</h2>
+            <p>iBlaze is your eerie escape into the world of vaping. Located in the heart of Ashton-in-Makerfield, Wigan, we offer a wide range of high-quality vape products, from e-liquids to devices. Step into our smoky realm and discover flavors that ignite your senses.</p>
+            <img src="https://via.placeholder.com/800x400/333333/ffffff?text=iBlaze+Vape+Shop" alt="iBlaze Vape Shop" class="img-fluid mt-3" style="border-radius: 10px;">
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="section">
+        <div class="container">
+            <h2>Our Products</h2>
+            <p>From spooky flavors to cutting-edge tech, we've got it all. Browse our selection below. <small>(All products are for adults 18+ only.)</small></p>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300x200/666666/ffffff?text=Ghost+Vape+Device" class="card-img-top" alt="Ghost Vape Device">
+                        <div class="card-body">
+                            <h5 class="card-title">Ghost Vape Pod System</h5>
+                            <p class="card-text">A sleek, portable pod vape with adjustable airflow. Perfect for on-the-go vaping. 2ml capacity, 650mAh battery.</p>
+                            <p class="card-text"><strong>Price: £25.99</strong></p>
+                            <a href="#" class="btn btn-outline-light">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300x200/666666/ffffff?text=Phantom+E-Liquid" class="card-img-top" alt="Phantom E-Liquid">
+                        <div class="card-body">
+                            <h5 class="card-title">Phantom Berry Blast E-Liquid</h5>
+                            <p class="card-text">Mysterious mix of blackberry and blueberry with a hint of mint. 50ml bottle, 3mg nicotine.</p>
+                            <p class="card-text"><strong>Price: £12.99</strong></p>
+                            <a href="#" class="btn btn-outline-light">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300x200/666666/ffffff?text=Shadow+Vape+Kit" class="card-img-top" alt="Shadow Vape Kit">
+                        <div class="card-body">
+                            <h5 class="card-title">Shadow Starter Kit</h5>
+                            <p class="card-text">Beginner's kit with a 1500mAh battery, coils, and charger. Easy to use for new vapers.</p>
+                            <p class="card-text"><strong>Price: £35.99</strong></p>
+                            <a href="#" class="btn btn-outline-light">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300x200/666666/ffffff?text=Spectral+Vanilla+E-Liquid" class="card-img-top" alt="Spectral Vanilla E-Liquid">
+                        <div class="card-body">
+                            <h5 class="card-title">Spectral Vanilla Custard E-Liquid</h5>
+                            <p class="card-text">Creamy vanilla with custard notes. 100ml bottle, 6mg nicotine. A ghostly delight.</p>
+                            <p class="card-text"><strong>Price: £15.99</strong></p>
+                            <a href="#" class="btn btn-outline-light">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300x200/666666/ffffff?text=Wraith+Vape+Mods" class="card-img-top" alt="Wraith Vape Mods">
+                        <div class="card-body">
+                            <h5 class="card-title">Wraith Advanced Mod</h5>
+                            <p class="card-text">Powerful 200W mod with temperature control. For experienced vapers seeking the ultimate hit.</p>
+                            <p class="card-text"><strong>Price: £89.99</strong></p>
+                            <a href="#" class="btn btn-outline-light">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300x200/666666/ffffff?text=Haunted+Fruit+E-Liquid" class="card-img-top" alt="Haunted Fruit E-Liquid">
+                        <div class="card-body">
+                            <h5 class="card-title">Haunted Mango Passion E-Liquid</h5>
+                            <p class="card-text">Tropical mango and passionfruit explosion. 50ml bottle, 0mg nicotine (nicotine-free option).</p>
+                            <p class="card-text"><strong>Price: £10.99</strong></p>
+                            <a href="#" class="btn btn-outline-light">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="section">
+        <div class="container">
+            <h2>Find Us</h2>
+            <p>274 Ashton-in-Makerfield, Wigan. Enter the shadows...</p>
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2378.123!2d-2.632!3d53.487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487b1b2c3d4e5f6g%3A0x1234567890abcdef!2s274%20Ashton-in-Makerfield%2C%20Wigan!5e0!3m2!1sen!2sus!4v1690000000000!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Address: 274 Ashton-in-Makerfield, Wigan</p>
+            <p>Phone: 01942 950493</p>
+            <p>Email: iblazebryn@gmail.com</p>
+            <h3>Opening Hours</h3>
+            <ul class="timings">
+                <li><strong>Saturday:</strong> 9:30 am – 7 pm</li>
+                <li><strong>Sunday:</strong> 9:30 am – 5 pm</li>
+                <li><strong>Monday:</strong> 9:30 am – 7 pm</li>
+                <li><strong>Tuesday:</strong> 9:30 am – 7 pm</li>
+                <li><strong>Wednesday:</strong> 9:30 am – 7 pm</li>
+                <li><strong>Thursday:</strong> 9:30 am – 7 pm</li>
+                <li><strong>Friday:</strong> 9:30 am – 7 pm</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 iBlaze Vape Shop. All rights reserved. <br> <small>Age-restricted: Must be 18+ to purchase vaping products. Consult local laws.</small></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
